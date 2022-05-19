@@ -1,0 +1,18 @@
+@import url(../challenge5/node_modules/bootstrap/dist/css/bootstrap.min.css);
+.obj1 {
+  padding-right: 0 !important;
+}
+
+.obj2 {
+  padding-left: 0 !important;
+}
+
+@media screen and (max-width: 800px) {
+  .obj2 {
+    padding-right: 0;
+  }
+  .obj1 {
+    padding-left: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
